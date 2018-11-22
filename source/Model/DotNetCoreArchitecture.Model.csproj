@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+      <PackageReference Include="DotNetCore.Validation" Version="5.3.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\CrossCutting\DotNetCoreArchitecture.CrossCutting.csproj" />
+    </ItemGroup>
+</Project>
